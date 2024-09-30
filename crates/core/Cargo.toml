@@ -96,12 +96,12 @@ backtrace = "0.3"
 lazy_static = "1"
 uuid = "0.8.2"
 
-iced = { version = "0.12", features = ["advanced", "tokio"] }
-iced_futures = { version = "0.12", features = ["async-std"] }
-iced_core = { version = "0.12" }
+iced = { version = "0.13", features = ["advanced", "tokio"] }
+iced_futures = { version = "0.13", features = ["async-std"] }
+iced_core = { version = "0.13" }
 iced_style = "0.12"
-iced_graphics = { version = "0.12" }
-iced_renderer = { version = "0.12", features = ["wgpu"] }
+iced_graphics = { version = "0.13" }
+iced_renderer = { version = "0.13", features = ["wgpu"] }
 #iced_aw = { path = "../../../iced_aw", default-features = false, features = ["card", "modal", "table"]}
 iced_aw = { git = "https://github.com/yeastplume/iced_aw.git", branch = "table_widget", default-features = false, features = ["card", "modal", "table"]}
 
