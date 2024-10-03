@@ -15,7 +15,7 @@ no-self-update = []
 wgpu = ["iced_renderer/wgpu"]
 
 [build-dependencies]
-built = { version = "0.4", features = ["git2"] }
+built = { version = "0.7", features = ["git2"] }
 
 [dependencies]
 
@@ -103,7 +103,7 @@ iced_style = "0.12"
 iced_graphics = { version = "0.13" }
 iced_renderer = { version = "0.13", features = ["wgpu"] }
 #iced_aw = { path = "../../../iced_aw", default-features = false, features = ["card", "modal", "table"]}
-iced_aw = { git = "https://github.com/yeastplume/iced_aw.git", branch = "table_widget", default-features = false, features = ["card", "modal", "table"]}
+iced_aw = { git = "https://github.com/yeastplume/iced_aw.git", branch = "main", default-features = false, features = ["card", "table"]}
 
 [dev-dependencies]
 tempfile = "3.2.0"
