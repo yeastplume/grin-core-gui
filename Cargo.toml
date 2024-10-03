@@ -18,17 +18,17 @@ debug = ["iced/debug"]
 [dependencies]
 grin-gui-core = { version = "0.1.0-alpha.8", path = "crates/core", features = ["wgpu"]}
 
-iced = { version = "0.12", features = ["canvas", "tokio"]  }
-iced_futures = { version = "0.12", features = ["async-std"] }
+iced = { version = "0.13", features = ["canvas", "tokio"]  }
+iced_futures = { version = "0.13", features = ["async-std"] }
 iced_style = {version = "0.12"}
-iced_renderer = { version = "0.12" }
-iced_core = { version = "0.12" }
+iced_renderer = { version = "0.13" }
+iced_core = { version = "0.13" }
 #iced_aw = { path = "../iced_aw", default-features = false, features = ["card", "modal", "table"]}
-iced_aw = { git = "https://github.com/yeastplume/iced_aw.git", branch = "table_widget", default-features = false, features = ["card", "modal", "table"]}
+iced_aw = { git = "https://github.com/yeastplume/iced_aw.git", branch = "main", default-features = false, features = ["card", "table"]}
 
 plotters-iced = "0.10.0"
-plotters="0.3"
-plotters-backend = "0.3"
+plotters="0.3.7"
+plotters-backend = "0.3.7"
 rand = "0.8.3"
 
 async-std = "1.6.2"
